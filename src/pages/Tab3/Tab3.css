@@ -1,0 +1,57 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+*{
+    font-family: 'poppins';
+}
+
+ion-content{
+    
+    --background: none;
+    background-image: url('/src/components/assets/bg-3.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.welcome-section{
+    height: 80vh;
+    width: 100%;
+    background: #fff;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    border-top-left-radius: 46px;
+    border-top-right-radius: 46px;    
+}
+
+.welcome-section .heading{
+    margin-top: 20px;
+    font-family: 'Poppins';
+    text-align: center;
+}
+
+.welcome-section .heading h2{
+    font-size: 1.6rem;
+    font-weight: bolder;
+    font-family: 'Poppins';
+    text-align: center;
+}
+
+.heading p{
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #7b7b7b;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+.text fieldset{
+    border-radius: 50px;
+}
+
+
+ion-search-bar{
+    border-radius: 45px;
+}
